@@ -70,14 +70,14 @@ a {
 }
 
 /* ===============Header============= */
-.header {
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-.header.container {
+
+.header > .container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header .logo {
@@ -207,6 +207,9 @@ a {
   margin-top: 10px;
 }
 /* ===========What are we doing============ */
+.work {
+  padding-bottom: 94px;
+}
 .work-list {
   display: flex;
 }
@@ -229,7 +232,6 @@ a {
 /* ======================Our team====================*/
 .team {
   background: #f5f4fa;
-  margin-top: 94px;
 }
 .title-team {
   font-weight: bold;
@@ -282,21 +284,20 @@ a {
 /* ===================Footer==================== */
 .page-footer > .container {
   display: flex;
-  padding-top: 60px;
 }
-.page-footer .logo {
-  margin-bottom: 20px;
-}
+
 .page-footer-portfolio > .container {
   display: flex;
   padding-top: 60px;
 }
-.page-footer-portfolio .logo {
-  margin-bottom: 20px;
+
+.container-studio-footer {
+  padding-top: 60px;
 }
 
 .contact-list {
   padding-bottom: 60px;
+  padding-top: 20px;
 }
 .contact-list-link-city {
   font-weight: 400;
