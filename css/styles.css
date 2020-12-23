@@ -232,21 +232,22 @@ a {
 /* ======================Our team====================*/
 .team {
   background: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .title-team {
+  height: 42px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
 .team-list {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .team-list-item {
@@ -293,11 +294,11 @@ a {
 
 .container-studio-footer {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .contact-list {
-  padding-bottom: 60px;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .contact-list-link-city {
   font-weight: 400;
@@ -319,11 +320,14 @@ a {
   margin-bottom: 9px;
 }
 /* =================Portfolio================ */
+.buttons {
+  padding-bottom: 94px;
+}
 .buttons-list {
   display: flex;
   justify-content: center;
   padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .buttons-list-item {
@@ -358,15 +362,14 @@ a {
   margin: 0;
   padding: 0;
   list-style: none;
-  margin-left: -20px;
-  margin-top: -20px;
-  padding-bottom: 94px;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 
 .gallery__list > .gallery__item {
   flex-basis: calc(100% / 3 -60px);
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .gallery__title {
