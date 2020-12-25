@@ -33,6 +33,7 @@ p {
 }
 .address {
   font-style: normal;
+  margin-top: 20px;
 }
 
 .container {
@@ -297,9 +298,6 @@ a {
   padding-bottom: 60px;
 }
 
-.contact-list {
-  margin-top: 20px;
-}
 .contact-list-link-city {
   font-weight: 400;
   font-size: 14px;
@@ -321,12 +319,13 @@ a {
 }
 /* =================Portfolio================ */
 .buttons {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .buttons-list {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
